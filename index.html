@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=1280 height=1080></canvas>
+      <canvas id="unity-canvas" width=1280 height=720></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -56,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/3d.loader.js";
+      var loaderUrl = buildUrl + "/3d build.loader.js";
       var config = {
-        dataUrl: buildUrl + "/3d.data.gz",
-        frameworkUrl: buildUrl + "/3d.framework.js.gz",
-        codeUrl: buildUrl + "/3d.wasm.gz",
+        dataUrl: buildUrl + "/3d build.data",
+        frameworkUrl: buildUrl + "/3d build.framework.js",
+        codeUrl: buildUrl + "/3d build.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "first 3d project",
@@ -94,7 +94,7 @@
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
         canvas.style.width = "1280px";
-        canvas.style.height = "1080px";
+        canvas.style.height = "720px";
       }
 
       loadingBar.style.display = "block";
