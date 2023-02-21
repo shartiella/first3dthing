@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)https://shartiella.github.io/marshmellowmed/ -->
+<html lang="he"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>מרשמלומד</title>
+    <meta name="description" content="משחק לימודי - נקטר שביט, אלה שרתיאל ורוני אבן עזרא">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+
+    <link rel="icon" href="./מרשמלומד_files/firelogo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./מרשמלומד_files/css2" rel="stylesheet">
+
+    <link href="./מרשמלומד_files/reset.css" rel="stylesheet">
+    <link href="./מרשמלומד_files/indexCss.css" rel="stylesheet">
+
+    <!-- JS -->
+    <script src="./מרשמלומד_files/jquery-1.12.0.min.js.הורדה"></script>
+    <script src="./מרשמלומד_files/JavaScript.js.הורדה" type="text/javascript"></script>
+
+</head>
+<body>
+    <div id="container">
+        <header>
+            <!--תפריט עליון-->
+            <nav>
+                <div id="right">
+                    <img id="logo" src="./מרשמלומד_files/firelogo.png">
+                    <h1>מרשמלומד</h1>
+                </div>
+                <span id="left">
+                    <a id="howToPlay" onclick="openHow()">איך משחקים?</a>
+                    <a id="about" onclick="openAbout()">אודות</a>
+                </span>
+            </nav>
+        </header>
+        <div id="aboutPopUp" class="aboutPopUpClosed">
+            <div class="aboutPopUpBox">
+                <img id="aboutPopUpX" class="aboutPopUpXclosed" onclick="closeAbout()" src="./מרשמלומד_files/aboutX.png">
+                <h2 class="aboutH2">אודות</h2>
+                <img src="./מרשמלומד_files/marshlogo.png">
+                <div id="aboutPopUpContent">
+                    <h3>אפיון ופיתוח</h3>
+                    <p>אלה שרתיאל, נקטר שביט ורוני אבן עזרא</p>
+                    <h3>אופיין ופותח במסגרת פרויקט בקורסים</h3>
+                    <p>סביבות לימוד אינטראקטיביות 1 + תכנות אינטראקטיבי 1</p>
+                    <h3>תשפ"ב - הפקולטה לטכנולוגיות למידה</h3>
+                    <a id="faculta" href="https://www.hit.ac.il/telem/overview">
+                        <img src="./מרשמלומד_files/HITlogo.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="howPopUp" class="howPopUpClosed">
+            <div class="howPopUpBox">
+                <img id="howPopUpX" class="howPopUpXclosed" onclick="closeHow()" src="./מרשמלומד_files/aboutX.png">
+                <h2 class="howH2">איך משחקים?</h2>
+                <div id="howPopUpContent">
+                    <table>
+                        <tbody><tr><th><img src="./מרשמלומד_files/marshmoveicon.png"></th><td>בכל סיבוב, תוצג בפניכם שאלה על גבי מרשמלו שינוע מצד לצד.</td></tr>
+                        <tr><th><img src="./מרשמלומד_files/marshzoom.png"></th><td>מעבר עכבר על המרשמלו יעצור ויגדיל אותו לצורך עיון בתוכן.</td></tr>
+                        <tr><th><img src="./מרשמלומד_files/smoreicon.png"></th><td>לחצו על השיפוד הנכון כדי למיין את המרשמלו לקטגוריה המתאימה.</td></tr>
+                        <tr><th><img src="./מרשמלומד_files/losemarshicon.png"></th><td>אם תטעו, המרשמלו ישרף ויעלם, והשאלה תחזור שוב בהמשך.</td></tr>
+                        <tr><th><img src="./מרשמלומד_files/winmarshicon.png"></th><td>אם תמיינו נכון, המרשמלו יצלה ויזהיב, ויתווסף לשיפוד המתאים.</td></tr>
+                        <tr><th><img src="./מרשמלומד_files/btns.png"></th><td>בעזרת הכפתורים בפינה תוכלו לשלוט בסאונד, בהשהייה, ובמהירות בהתאמה.</td></tr>
+                    </tbody></table>
+                    <p>המשחק יסתיים לאחר שכל המרשמלואים יאספו וימלאו את מד ההתקדמות.</p>
+                    <p><b>בהצלחה!</b></p>
+                </div>
+            </div>
+        </div>
+        <!--תוכן העמוד-->
+        <main id="game">
+            <iframe src="https://shartiella.github.io/first3dthing" frameborder="0" allowfullscreen="">Browser not compatible</iframe>
+        </main>
+    </div>
+
+</body></html>
